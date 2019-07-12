@@ -1,0 +1,38 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "semi": [
+      "error",
+      "never"
+    ],
+    "no-return-assign": [
+      "off"
+    ],
+    "consistent-return": [
+      "off"
+    ],
+    "no-underscore-dangle": [
+      "off"
+    ],
+    "func-names": [
+      "off"
+    ],
+    "no-use-before-define": [
+      "off"
+    ]
+  }
+}
